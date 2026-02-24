@@ -1,6 +1,7 @@
 Lib/
 Scripts/
 Include/
-CET_CONSOLIDADO.ipynb
+
+*.ipynb
 
 src/pruebas

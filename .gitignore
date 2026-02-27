@@ -2,6 +2,12 @@ Lib/
 Scripts/
 Include/
 
-*.ipynb
+__pycache__/
+share/
 
-src/pruebas
+*.ipynb
+*.csv
+
+src/pruebas/
+
+.env

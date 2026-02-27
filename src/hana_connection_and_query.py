@@ -8,6 +8,9 @@ def read_hana(sql: str, params=None) -> pd.DataFrame:
     """Lee una query en HANA y retorna un DataFrame."""
     return pd.read_sql(sql, conn, params=params)
 
+def cleanup(file_path):
+    os.remove(file_path)
+
 print("Get ENV")
 with open(".env", "r") as env_file: 
     dotenv = json.load(env_file)
@@ -24,7 +27,8 @@ conn = dbapi.connect(
     address=HANA_HOST,
     port=HANA_PORT,
     user=HANA_USER,
-    password=HANA_PASS)
+    password=HANA_PASS
+)
 
 # Prepare SQL query
 # Ajusta el nombre del objeto si en tu HANA es ZISH.PREV/... u otro path

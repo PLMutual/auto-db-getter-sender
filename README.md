@@ -5,7 +5,9 @@
     1. Run: `python -m venv auto-mail`
         - Puedes usar otro nombre en vez de `auto-mail` si lo profieres, da lo mismo
         - Para trabajar dentro del ambiente virtual hay que correr el script `activate` que está dentro de la carpeta autogenerada Scripts.
-    2. Copia o clona el codigo dentro del ambiente virutal
+    2. Actualizar pip
+        - Run: `python.exe -m pip install --upgrade pip`
+    3. Copia o clona el codigo dentro del ambiente virutal
 
 2. Instalar los modulos necesarios
     - Run `python -m pip install -r requirements.txt`

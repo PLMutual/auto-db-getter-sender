@@ -26,7 +26,7 @@ def send(mail):
     print("Sent")
 
 if __name__ == "__main__":
-    attachment_path = r"C:\Users\pliedtke_ext\OneDrive - Mutual\Escritorio\Pedidos Lucho\auto-mail\solicitudes_2025_plus.csv"
+    attachment_path = r"C:\Users\pliedtke_ext\OneDrive - Mutual\GPCCDG - Equipo Planificación estratégica y Proyectos\11 Salud\Centro Coordinador Quirúrgico (CCQ)\02 Ordenes Clínicas\Ordenes Clínicas de Pabellón Ley.xlsx"
     recipient = "Liedtke22@gmail.com"
 
     email = build_mail(recipient, attachment_path)

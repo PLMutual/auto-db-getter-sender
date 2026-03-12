@@ -22,10 +22,5 @@
     - Tambien se pueden correr cualquiera de los archivos dentro de la carpeta src, para testear las funcionalidades de los modulos. 
 
 ## To Do
-- Change DB connection to SQLAlchmy, because: 
-```
-UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
-  return pd.read_sql(sql, conn, params=params)```
-- Change code paradigm to functional instead of modular
 - Pasar el mailer a Graph, para poder dejar de usar rutas absolutas para el archivo a mandar
 
